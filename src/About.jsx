@@ -62,7 +62,7 @@ export default function About() {
                             <p className='ml-8 font-semibold mt-4'>
                                 Other stuff to check out:
                             </p>
-                            <ul role="list" className="ml-8 mt-8 space-y-8 text-gray-600">
+                            <ul className="ml-8 mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
                                     <BriefcaseIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
                                     <span>

@@ -19,8 +19,8 @@ export default function NavBar() {
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex flex-shrink-0 items-center">
                             <img
-                                alt="Your Company"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                alt="Archit Menon"
+                                src={process.env.PUBLIC_URL + 'AM.svg'}
                                 className="h-8 w-auto"
                             />
                         </div>
