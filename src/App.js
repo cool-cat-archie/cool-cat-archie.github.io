@@ -24,7 +24,7 @@ function App() {
                 </ul>
             </nav> */}
             <Routes>
-                <Route path="/about" element={<About />} />
+                <Route path="" element={<About />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
