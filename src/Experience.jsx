@@ -52,8 +52,9 @@ const items = [
 export default function Experience() {
     return (
         <div className="bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-                <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
+            {/* <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40"> */}
+            <div className="mx-4 max-w-7xl px-2 py-12 sm:py-16 lg:px-2 lg:py-20">
+                <div className="mx-4 max-w-4xl divide-y divide-gray-900/10">
                     <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Work Experience</h2>
                     <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
                         {items.map((item) => (
