@@ -9,10 +9,13 @@ import {
     Squares2X2Icon
 } from '@heroicons/react/24/outline'
 
+import { Link } from "react-router-dom";
+
+
 const actions = [
     {
         title: 'CCEE Resource Hub',
-        href: '#',
+        href: 'ccee-resouce-hub',
         icon: AcademicCapIcon,
         iconForeground: 'text-slate-700',
         iconBackground: 'bg-slate-50',
@@ -20,7 +23,7 @@ const actions = [
     },
     {
         title: 'Locality Sensitive Hashing for Data Prefetching',
-        href: '#',
+        href: 'prefetching',
         icon: CpuChipIcon,
         iconForeground: 'text-teal-700',
         iconBackground: 'bg-teal-50',
@@ -28,15 +31,15 @@ const actions = [
     },
     {
         title: 'DistanSing',
-        href: '#',
+        href: 'distansing',
         icon: MusicalNoteIcon,
         iconForeground: 'text-purple-700',
         iconBackground: 'bg-purple-50',
-        description: 'Audio sharing application (in C++/Python) allowing musicians to play/sing together over the internet with minimal latency over a peer to peer network.',
+        description: 'Audio sharing application allowing musicians to play/sing together over the internet with minimal latency over a peer to peer network.',
     },
     {
         title: 'Parlé',
-        href: '#',
+        href: 'parle',
         icon: ChatBubbleLeftRightIcon,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
@@ -44,7 +47,7 @@ const actions = [
     },
     {
         title: 'Limits of Alpha Testing',
-        href: '#',
+        href: 'alpha-testing',
         icon: PhotoIcon,
         iconForeground: 'text-yellow-700',
         iconBackground: 'bg-yellow-50',
@@ -52,7 +55,7 @@ const actions = [
     },
     {
         title: 'Distributed KDC',
-        href: '#',
+        href: 'distributed-kdc',
         icon: KeyIcon,
         iconForeground: 'text-rose-700',
         iconBackground: 'bg-rose-50',
@@ -60,7 +63,7 @@ const actions = [
     },
     {
         title: 'Beating the Odds',
-        href: '#',
+        href: 'beating-the-odds',
         icon: BanknotesIcon,
         iconForeground: 'text-emerald-700',
         iconBackground: 'bg-emerald-50',
@@ -69,7 +72,7 @@ const actions = [
     },
     {
         title: 'Connect 4 Verification',
-        href: '#',
+        href: 'connect-4-verification',
         icon: Squares2X2Icon,
         iconForeground: 'text-indigo-700',
         iconBackground: 'bg-indigo-50',
@@ -108,11 +111,11 @@ export default function Projects() {
                     </div>
                     <div className="mt-8">
                         <h3 className="text-base font-semibold leading-6 text-gray-900">
-                            <a href={action.href} className="focus:outline-none">
+                            <Link to={action.href} className="focus:outline-none">
                                 {/* Extend touch target to entire panel */}
                                 <span aria-hidden="true" className="absolute inset-0" />
                                 {action.title}
-                            </a>
+                            </Link>
                         </h3>
                         <p className="mt-2 text-sm text-gray-500">
                             {action.description}
