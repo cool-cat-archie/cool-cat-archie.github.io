@@ -125,8 +125,24 @@ function getProjects() {
 
   const distansing = new ProjectClass(
     'DistanSing',
-    '',
-    'C++, Qt, Python, AWS',
+    <>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5_xx9twI48?si=Wq5VGy6lsoLukNrS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <p className='mt-4'>
+        The COVID-19 changed life in many ways.  Musicians are among many who were struggling heavily during this pandemic. The University of Utah’s School of music has a requirement that the students perform with other students in order to graduate.
+        Due to Coronavirus and the social distancing requirement, this was very challenging. One attempted solution was trying to perform together through programs such as Zoom.  Since Zoom and other similar programs send
+        audio and video data to a remote server first and then send it to the participants, there is high latency. This latency causes the musicians to get out of sync and prevents them from effectively practicing or performing together.
+        <br/> <br/>
+        The purpose of DistanSing is to solve this problem and to give musicians the ability to practice together once again. We worked closely with musicians and with people from the school of music as we designed and built our system.
+        <br/> <br/>
+        In order to accomplish this we implemented UDP holepunching so that peer to peer connections can be made over the internet without users needing to worry about setting up port forwarding on each of their individual routers.
+        This feature makes our system simpler and easier to use than any other one that is currently available that we are aware of.
+        DistanSing is capable of connecting users in rooms called rehearsals and allows them to communicate over a peer to peer network.
+        The users experience very low latency and do not notice any lag. Apart from this low latency audio communication, users also have complete control of what they are hearing once they are inside a rehearsal.
+        Each user can adjust the volume and mute any other user inside the rehearsal and these changes will only be reflected to themselves. There is also a solo button which allows for professors or directors to mute everyone besides one specific user with the click of one single button.
+      </p>
+    </>,
+    'C++, Qt, FFMPEG, PortAudio, Python, AWS',
     [],
     null,
     'Fall 2020 - Spring 2021',

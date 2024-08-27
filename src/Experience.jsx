@@ -6,7 +6,7 @@ const items = [
         id: 1,
         role: 'Software Engineer at Solventum (September 2024 - present)',
         description: ['Stay tuned!'],
-        image: 'solventum.png'
+        image: 'experience/solventum.png'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const items = [
             "Created a hub for educational resources/initiatives with a lot functionality for admins, submitters, and the general public",
             "Functionality includes searching, filtering, admin features, form submissions, authorization, tutorials, etc.",
         ],
-        image: 'i2i.png'
+        image: 'experience/i2i.png'
     },
     {
         id: 3,
@@ -39,13 +39,13 @@ const items = [
                 </>
             )
         ],
-        image: 'utah.png'
+        image: 'experience/utah.png'
     },
     {
         id: 4,
         role: 'Amazon Warehouse Associate (Summer 2019)',
         description: ['Stowed a lot of product', 'Got a good workout'],
-        image: 'amazon.png'
+        image: 'experience/amazon.png'
     }
 ]
 
