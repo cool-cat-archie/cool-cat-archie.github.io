@@ -59,7 +59,7 @@ function getProjects() {
       With over 30 statewide projects, grants, and initiatives, this is a new one-stop website designed to provide equity in access to
       valuable tools for educators. There are 130+ universal resources catered to benefit districts, county offices, or charter schools.
       From webinars, to toolkits, to self-assessment frameworks, people can find what they need to improve outcomes for students.
-      If you would like to learn more background information about the Resource Hub, please read the 
+      If you would like to learn more background information about the Resource Hub, please read the
       <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://cceestatewidealphabucket84052-staging.s3.us-west-2.amazonaws.com/public/OverviewCCEESII.pdf?x-amz-content-sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&x-amz-user-agent=aws-amplify%2F5.3.12+storage%2F2+framework%2F1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA4K3QJ2B4W7ZNVYAR%2F20240826%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240826T053913Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBLBRZ6nsWHu3RPYLZ0Qt07hHVC1rjUyICEIp3BlrRTfAiBzhdN0sVJd5biFspc51cPfrsPXVMX8XQq%2F9HobrkqrMirUBQjn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDg0Nzk1NDY5NDI2NSIMGnl1vx1SWHAi8gj4KqgFe6bXdMTt8k1WkiPMjE%2FzTDT1ezBDivnRI9Y7IbPli6NgPdx%2BjnGr04LMA3ihSH1jbvXjLXTQPY2BpUhWUJ37MTWE3jGglo2XAYT821Lfssk%2BclOTg2%2B6KlcTeMs1qoJwqqCuz%2Fc2IURP4LDFWFZI273XxcFj%2Be%2BSPdH9GXbhisYuJFWDHByqLsI6ygFDrmPkJ7ac0KHMlnkKIe4YfmBCLggSqdObv7OXRNoOicKR2MxXudDcPVd3I2omEyVngpY86R%2Bzo4ktPiMALenflyJOkkgSYoo4PdRDeRhInUNfPcptByECVmt4mY3YpUaUy3dN%2BIefHJuejXu5xKFmesI1BzEz8Ta16BzNZOmkEhvk7273IU5evlK7JQIHWq4KU1qU1%2FjRr4iJlFpicHfjafV5h64pirpP4j7LedF94WiC1PZvgh3ydO%2FCtQzSq%2FrufG9m4msPmL6EojnGneqITsZrK2C1r3GVimH6EZc6dSGQBpolh9cO6upM%2Brxjk3UhUu8x8TNXNIdEySLF%2FeNM1VS5cBzwsFdw9En1VQMIwqBmdNfHjIU5bBIl%2F2TK7jW9QhEzz4IaBNeIdCt1xIG2aJcpKXkD2dipNQiFai8B5qzBY%2FeDyOCAC2Mbm27ISmui1S0TU2eIsNnOoT%2Bbi7KUXAZZwv0jaJJknHTMVvtcvVVcSyaDim7oZQePaGb5l%2FeFc%2B2W9msA1ksyLLjy%2BWY2uZBf%2BFVA5T%2FVmcgsgCAugkzDcfeuVM2mdg5RqYqge8FQcmxpEClt999Ktf3Wmz2CB49Dg5dlrCu0faKX7%2BM%2FUxQQDNZM8%2Bl6%2FNuM13094MGvWRkja8UD7RtS3r5TCtlaZurc3H0E4BkH14JELicw0PpbakB2%2Fz3Byy1hdT3G1ADlt%2F0GmspVdWkq%2BbQwgaqwtgY63ALJgK9DALknd2R9k3QmLczMPVzmPvfscHoV9DrGs8Fanx3IIlQ1fmH4nELvCyqzrHZdw9%2FIlu%2FSfhnm64M6lewG6Mavgkz5BsAu6ZzeP9UCw%2FP26q4BfLcB8WtXSPi1JqHPCJ4PvrtdJFe54owmvj%2BJAjAIqRZC5K3x%2BSIHKQn2zbhVXENX5DF9peu3Bc5O4nRrznf9sxSqEj7LCWPqcjID%2BOTr5iFnVAC0Hywxd2WDzWN4J0A5Qc3aktyNnqJ3nJ1Ne0WMZem6i7l5Tcft5FVvzz0D1XnEjZ%2B3d0YW22rcKOHl%2FI%2FuOOVAUpLUbAHQuhTcTwBfksiu71VoXmNCOtDptTNXfRZfK3GvDbPiOSrVfBpAbU%2FJSII34Mcnym%2FHUYUmt4Q7OgQxp4K0BpyqO8zHdiflzPZ4qYxtnio%2FclF87YNf%2BtbJoQZ4q4c6pXN%2FJafgeWICEtG8ay%2FXJ0s%3D&X-Amz-Signature=c193ac630b1a690816bc7afe8257d067b83a479567f997a27490da9ca27d3464'> Overview of the Statewide System of Support Resource Hub</a>.
       Please note there are also many features only available to resource submitters and admins.
     </p>),
@@ -82,19 +82,51 @@ function getProjects() {
 
   const prefetching = new ProjectClass(
     'Locality Sensitive Hashing for Data Prefetching',
-    '',
+    <p>
+      In a program, there can be many similar memory access patterns.
+      The idea is we hoped that similar access pattern continue to be similar.
+      Using locality sensitive hashing (LSH), our goal was to use a previous pattern to make a prediction for a similar pattern in the future.
+      The program stores a list of memory address offsets into the current page (configurable parameter).
+      The code computes the delta: the difference between last address and the one after it, then computes a K min hash on the pattern.
+      The hope was that similar patterns should hash to this value with high probability.
+      Similar to Misra-Gries, the program has a sketch to store the predictions that happen frequently.
+      We used a fork of <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://github.com/Quangmire/ChampSim'>ChampSim</a> that included some baseline prefetchers to compare to (Simplified-ISB and Best Offset) including a case with no prefetching.
+      We generated a set of “prefetches” and fed that into the simulator which will then run the program and issue our prefetches. It then reports information like average IPC and the Useful and Useless prefetch counts.
+      Our LSH implementation can be very accurate depending on the configurations, but it consistently isn’t aggressive enough to improve the IPC over prior work.
+    </p>,
     'C++, ChampSim',
-    [],
+    [
+      {
+        link: 'prefetcher/IPC.png',
+        caption: 'IPC results for all of the different prefetching strategies. The x-axis are the trace files tested on.'
+      },
+      {
+        link: 'prefetcher/PRECISION.png',
+        caption: 'Precision results'
+      },
+      {
+        link: 'prefetcher/RECALL.png',
+        caption: 'Recall results'
+      },
+      {
+        link: 'prefetcher/Bloom.png',
+        caption: 'Effect of a bloom filter on the space'
+      },
+      {
+        link: 'prefetcher/Space.png',
+        caption: 'Space used by each prefetching strategy'
+      },
+    ],
     null,
     'Spring 2023',
-    null
+    'https://github.com/cool-cat-archie/ScalableFinalProject'
   )
   allProjects.set('prefetching', prefetching)
 
   const distansing = new ProjectClass(
     'DistanSing',
     '',
-    'C++, Qt, Python',
+    'C++, Qt, Python, AWS',
     [],
     null,
     'Fall 2020 - Spring 2021',
