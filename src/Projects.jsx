@@ -43,7 +43,7 @@ const actions = [
         icon: ChatBubbleLeftRightIcon,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
-        description: 'Application for sending and receiving SMS messages between users while translating messages into the preferred language of recipients.',
+        description: 'Award winning (3rd place at HackTheU 2019) application for sending and receiving SMS messages between users while translating messages into the preferred language of recipients.',
     },
     {
         title: 'Limits of Alpha Testing',

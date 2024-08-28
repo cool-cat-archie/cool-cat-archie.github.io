@@ -129,7 +129,9 @@ function getProjects() {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5_xx9twI48?si=Wq5VGy6lsoLukNrS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       <p className='mt-4'>
-        The COVID-19 changed life in many ways.  Musicians are among many who were struggling heavily during this pandemic. The University of Utah’s School of music has a requirement that the students perform with other students in order to graduate.
+        Main personal contribution: worked on the networking peer to peer functionality
+        <br/> <br/>
+        COVID-19 changed life in many ways.  Musicians are among many who were struggling heavily during this pandemic. The University of Utah’s School of music has a requirement that the students perform with other students in order to graduate.
         Due to Coronavirus and the social distancing requirement, this was very challenging. One attempted solution was trying to perform together through programs such as Zoom.  Since Zoom and other similar programs send
         audio and video data to a remote server first and then send it to the participants, there is high latency. This latency causes the musicians to get out of sync and prevents them from effectively practicing or performing together.
         <br/> <br/>
@@ -142,7 +144,7 @@ function getProjects() {
         Each user can adjust the volume and mute any other user inside the rehearsal and these changes will only be reflected to themselves. There is also a solo button which allows for professors or directors to mute everyone besides one specific user with the click of one single button.
       </p>
     </>,
-    'C++, Qt, FFMPEG, PortAudio, Python, AWS',
+    'C++, Qt, FFmpeg, PortAudio, Python, AWS',
     [],
     null,
     'Fall 2020 - Spring 2021',
@@ -152,12 +154,25 @@ function getProjects() {
 
   const parle = new ProjectClass(
     'Parlé',
-    '',
-    'Python',
-    [],
+    <p>
+      Parlé finished 3rd at <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.fox13now.com/2019/10/05/fourth-annual-hack-the-u-hackathon-draws-big-crowds-for-big-prizes'>HackTheU 2019</a> (Utah's largest hackathon).
+      We created an API that sends and receives SMS messages between users, translating messages into the preferred language of recipients. Additionally, Galileo's API was used to send money between users, showing users the balance in their bank account across multiple currencies.
+
+    </p>,
+    'Python, Twilio, Galileo API',
+    [
+      {
+        link: 'parle/group.jpg',
+        caption: 'Parlé team: Ruben Arellano, Ryan Furukawa, Me (Archie!), Prince Mugisha'
+      },
+      {
+        link: 'parle/prize.jpeg',
+        caption: 'Parlé team receiving our prize, a Google Home!'
+      },
+    ],
     null,
     'Fall 2019',
-    null
+    'https://github.com/MVPrince10/Parle'
   )
   allProjects.set('parle', parle)
 

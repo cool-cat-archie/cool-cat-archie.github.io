@@ -38,24 +38,5 @@ export default function Project({ project }) {
                 </div>
             </div>
         </div>
-        // <>
-        // {project.description}
-        // {project.date}
-        // {project.stack}
-        // {project.imageList.size > 0 &&
-        //      (project.imageList.map(img => 
-        //         <img
-        //             alt=''
-        //             src={process.env.PUBLIC_URL + '/' +img}
-        //         />
-        //      ))
-        // }
-        // {project.youtubeLink &&
-        //     project.youtubeLink
-        // }
-        // {project.repo &&
-        //     project.repo
-        // }
-        // </>
     )
 }
