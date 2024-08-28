@@ -178,12 +178,34 @@ function getProjects() {
 
   const alpha = new ProjectClass(
     'Limits of Alpha Testing',
-    '',
+    <p>
+      My project was to implement various techniques (Stochastic Alpha Testing, Hashed Alpha Testing, and Alpha Distribution) to get around the limits of traditional alpha testing.
+      These techniques were proposed in <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='http://www.cemyuksel.com/research/alphadistribution/'>research</a> done by Cem Yuksel, a graphics professor at the University of Utah.
+      <br/><br/>
+      In computer graphics, there is a technique called alpha testing. Basically, there are these billboards (flat images)
+      that are used for very detailed objects, so that you can just render an image instead of a detailed model. However there needs to
+      be parts of this image that are transparent. Using the alpha value of the RGBA pixel value, the alpha test decides whether or not a
+      pixel is transparent on whether the alpha value is below a certain threshold. This works really well, except for one important problem.
+      At courser Mip-map levels (eg. further away textures), you lose detail which is why the above techniques were created.
+    </p>,
     'OpenGL',
-    [],
+    [
+      {
+        link: 'alpha/shader.png',
+        caption: 'This traditional alpha test code in the fragment shader discards when the alpha value is below the 0.1 threshold. This code snippet is from learnopengl.com.'
+      },
+      {
+        link: 'alpha/alpha.png',
+        caption: 'This image shows some of my results. It may be a little hard to see but there is slightly more detail at this Mip-map level in the improved techniques.'
+      },
+      {
+        link: 'alpha/alphadist_comp2.png',
+        caption: 'These are more stark results with more interesting images from the original paper linked above from Cem Yuksel.'
+      },
+    ],
     null,
     'October 2023 - present',
-    null
+    'https://github.com/cool-cat-archie/GraphicsWindows/tree/master'
   )
   allProjects.set('alpha', alpha)
 
