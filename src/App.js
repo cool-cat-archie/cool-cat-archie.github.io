@@ -130,13 +130,13 @@ function getProjects() {
 
       <p className='mt-4'>
         Main personal contribution: worked on the networking peer to peer functionality
-        <br/> <br/>
+        <br /> <br />
         COVID-19 changed life in many ways.  Musicians are among many who were struggling heavily during this pandemic. The University of Utah’s School of music has a requirement that the students perform with other students in order to graduate.
         Due to Coronavirus and the social distancing requirement, this was very challenging. One attempted solution was trying to perform together through programs such as Zoom.  Since Zoom and other similar programs send
         audio and video data to a remote server first and then send it to the participants, there is high latency. This latency causes the musicians to get out of sync and prevents them from effectively practicing or performing together.
-        <br/> <br/>
+        <br /> <br />
         The purpose of DistanSing is to solve this problem and to give musicians the ability to practice together once again. We worked closely with musicians and with people from the school of music as we designed and built our system.
-        <br/> <br/>
+        <br /> <br />
         In order to accomplish this we implemented UDP holepunching so that peer to peer connections can be made over the internet without users needing to worry about setting up port forwarding on each of their individual routers.
         This feature makes our system simpler and easier to use than any other one that is currently available that we are aware of.
         DistanSing is capable of connecting users in rooms called rehearsals and allows them to communicate over a peer to peer network.
@@ -155,7 +155,7 @@ function getProjects() {
   const parle = new ProjectClass(
     'Parlé',
     <p>
-      Parlé finished 3rd at <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.fox13now.com/2019/10/05/fourth-annual-hack-the-u-hackathon-draws-big-crowds-for-big-prizes'>HackTheU 2019</a> (Utah's largest hackathon).
+      <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://devpost.com/software/parle'>Parlé</a> finished 3rd at <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.fox13now.com/2019/10/05/fourth-annual-hack-the-u-hackathon-draws-big-crowds-for-big-prizes'>HackTheU 2019</a> (Utah's largest hackathon).
       We created an API that sends and receives SMS messages between users, translating messages into the preferred language of recipients. Additionally, Galileo's API was used to send money between users, showing users the balance in their bank account across multiple currencies.
 
     </p>,
@@ -181,7 +181,7 @@ function getProjects() {
     <p>
       My project was to implement various techniques (Stochastic Alpha Testing, Hashed Alpha Testing, and Alpha Distribution) to get around the limits of traditional alpha testing.
       These techniques were proposed in <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='http://www.cemyuksel.com/research/alphadistribution/'>research</a> done by Cem Yuksel, a graphics professor at the University of Utah.
-      <br/><br/>
+      <br /><br />
       In computer graphics, there is a technique called alpha testing. Basically, there are these billboards (flat images)
       that are used for very detailed objects, so that you can just render an image instead of a detailed model. However there needs to
       be parts of this image that are transparent. Using the alpha value of the RGBA pixel value, the alpha test decides whether or not a
@@ -211,12 +211,29 @@ function getProjects() {
 
   const distributed = new ProjectClass(
     'Distributed KDC',
-    '',
-    'Typescript, Cloudflare Workers',
-    [],
+    <p>
+      Content Delivery Networks are an important part of quickly distributing media. We would like to apply this same principle to key distribution centers which are a vital part of the Extended Needham Schroeder protocol. We believe that there is a substantial burden that anyone that has to talk to "Bob", must have the Key Distribution Center (KDC) generate keys as well as a ticket. To alleviate this burden, we propose to have a distributed approach to KDC operations where multiple edge servers are distributing the work of a KDC.
+      <br/><br/>
+      To achieve this distribution of the KDC along the edge network, we utilize Cloudfare as a third-party infrastructure. Cloudflare's network is built with data privacy in mind. They supply end-to-end encryption and do not generate revenue from advertisement. As a result they are against the collection and retention of personal data that they process.
+    </p>,
+    'Typescript, Cloudflare Workers, Azure',
+    [
+      {
+        link: 'kdc/protocol.jpg',
+        caption: 'Extended Needham Schroeder protocol'
+      },
+      {
+        link: 'kdc/distributedNS.png',
+        caption: 'Our modification of the NS protocol'
+      },
+      {
+        link: 'kdc/kdcOut.png',
+        caption: 'Hard to see Key Distribution Center output in Distributed KDC'
+      },
+    ],
     null,
     'October 2023 - present',
-    null
+    "https://github.com/dpnandkeshwar/NetworkSecurityProject"
   )
   allProjects.set('distributed', distributed)
 
