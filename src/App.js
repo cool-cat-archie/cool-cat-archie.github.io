@@ -204,7 +204,7 @@ function getProjects() {
       },
     ],
     null,
-    'October 2023 - present',
+    'Spring 2022',
     'https://github.com/cool-cat-archie/GraphicsWindows/tree/master'
   )
   allProjects.set('alpha', alpha)
@@ -239,22 +239,24 @@ function getProjects() {
 
   const beating = new ProjectClass(
     'Beating the Odds',
-    '',
+    <p>
+      Check out the current project page <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://wilferd.github.io/BeatingTheOdds/'>here</a> (Chrome browser recommended)! There’s a saying when it comes to gambling that “the house always wins.” The motivation for our project was knowing how often Vegas predictions are right for the outcomes of NBA games. We were interested in sports betting and wanted to display the results for the NBA and compare actual outcomes to predicted outcomes. For every NBA game, there are countless statistics that oddsmakers come up with such as money lines, spreads, favorites, expected payouts, etc. Our goal was to distill this information into helpful visualizations that show how teams perform vs how they are expected to perform. 
+    </p>,
     'Javascript, D3',
     [],
-    null,
-    'October 2023 - present',
-    null
+    "https://www.youtube.com/embed/a4xKcfkfQz0?si=JsaxLD4zHRD0l71s" ,
+    'Spring 2022',
+    'https://github.com/Wilferd/BeatingTheOdds'
   )
   allProjects.set('beating', beating)
 
   const connect = new ProjectClass(
     'Connect 4 Verification',
     '',
-    'CMurphi',
+    'Rumur',
     [],
     null,
-    'October 2023 - present',
+    'Spring 2022',
     null
   )
   allProjects.set('connect', connect)
