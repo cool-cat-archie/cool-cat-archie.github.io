@@ -37,7 +37,9 @@ export default function About() {
                             <p className="text-base font-semibold leading-7 text-indigo-600">Software Engineer</p>
                             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Archit Menon</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Disregard this picture of me in London, I'm actually from Salt Lake City, Utah! My interests include programming (duh!), watching sports (go Jazz & Utes!), watching movies (<a href='https://letterboxd.com/cool_cat_archie/' className='underline text-blue-600 hover:text-blue-800 visited:text-purple-600'>Letterboxd</a>),
+                                Disregard this picture of me in London, I'm actually from Salt Lake City, Utah! My interests include programming (duh!), watching sports (go 
+                                <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.youtube.com/watch?v=1g3rn8Nkl6U'> Jazz</a> &
+                                <a className='text-blue-600 hover:text-blue-800 visited:text-purple-600' href='https://www.youtube.com/watch?v=4gXlrjK4cHU&pp=ygUSdXRhaCB1dGVzIGJlYXQgYnl1'> Utes</a>!), watching movies (<a href='https://letterboxd.com/cool_cat_archie/' className='underline text-blue-600 hover:text-blue-800 visited:text-purple-600'>Letterboxd</a>),
                                 shooting pool, video games, board games, pickleball, volleyball, and enjoying the Utah outdoors. My friends and family call me Archie!
                             </p>
                         </div>

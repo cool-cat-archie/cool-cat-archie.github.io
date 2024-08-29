@@ -252,12 +252,23 @@ function getProjects() {
 
   const connect = new ProjectClass(
     'Connect 4 Verification',
-    '',
-    'Rumur',
-    [],
+    <p>
+      In 1988, the game Connect 4 was proven to be a solved game meaning that with perfect play the first player will always win. With only one non-optimal move by the first player, the second player can force a draw, and with two non-optimal moves, the second player can win. One common algorithm to solving Connect 4 is Minimax. A minimax algorithm computes a decision tree of all of the possible moves and countermoves by each player. The first player can simply make decisions that lead to a leaf node of a victory. My motivation for this project was to take this idea and do a similar approach with a verification tool. Like Minimax, a model checker does a similar approach by traversing the state space non-deterministically according to some rules and invariants. My goal was to use a model checker to traverse the space of Connect 4 games for optimal play.
+    </p>,
+    'Murphi, Rumur',
+    [
+      {
+        link: 'c4/rules.png',
+        caption: 'Each possible move (ie dropping a token) is accomplished by a rule'
+      },
+      {
+        link: 'c4/long.png',
+        caption: 'State explosion made this problem challenging'
+      },
+    ],
     null,
     'Spring 2022',
-    null
+    'https://github.com/cool-cat-archie/Connect4Verification/tree/main'
   )
   allProjects.set('connect', connect)
   return allProjects;
